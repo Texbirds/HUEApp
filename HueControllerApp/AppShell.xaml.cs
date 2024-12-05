@@ -1,10 +1,14 @@
-﻿namespace HueControllerApp
+﻿using HueController.Views;
+
+namespace HueControllerApp
 {
     public partial class AppShell : Shell
     {
         public AppShell()
         {
             InitializeComponent();
+
+            Routing.RegisterRoute("MainPage", typeof(MainPage));
         }
     }
 }

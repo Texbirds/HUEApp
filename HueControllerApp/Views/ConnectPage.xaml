@@ -1,12 +1,25 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HueControllerApp.ViewModels"
              x:Class="HueController.Views.ConnectPage"
-             Title="Connect to Bridge">
+             Title="Connect to Bridges">
+
     <StackLayout Padding="10">
         <Label Text="Enter the IP Address of the HUE Bridge:" FontSize="16" />
         <Entry Placeholder="e.g., 192.168.1.179" Text="{Binding BridgeIp}" />
         <Button Text="Connect" Command="{Binding ConnectCommand}" />
         <Label Text="{Binding ConnectionStatus}" FontSize="14" TextColor="Red" />
+
+        <Label Text="Connected Bridges:" FontSize="16" />
+        <CollectionView ItemsSource="{Binding ConnectedBridges}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10">
+                        <Label Text="{Binding IpAddress}" FontSize="14" />
+                        <Button Text="Open" Command="{Binding Source={RelativeSource AncestorType={x:Type local:ConnectViewModel}}, Path=OpenBridgeCommand}" CommandParameter="{Binding}" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
     </StackLayout>
 </ContentPage>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HueController.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00a874773aaac9c231604287a5d37b8f3a9f915f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b65df8d60fe0f5d1d3e57194ef4cbaeb103f542")]
 [assembly: System.Reflection.AssemblyProductAttribute("HueController.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HueController.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -17,8 +17,12 @@ namespace HueController.ViewModels
         private string _bridgeIp;
         private string _apiKey;
 
-        public MainViewModel()
+        public MainViewModel(string ipAddress, string apiKey)
         {
+            _apiClient = new HueBridgeApiClient();
+            _bridgeIp = ipAddress;
+            _apiKey = apiKey;
+
             Lights = new ObservableCollection<Light>();
             Patterns = new ObservableCollection<LightPattern>
             {
@@ -30,8 +34,6 @@ namespace HueController.ViewModels
                 new LightPattern { Name = "Cool Morning", Hue = 45000, Saturation = 100, Brightness = 220, IsOn = true }
             };
 
-            _apiClient = new HueBridgeApiClient();
-
             ApplyPatternCommand = new Command(ApplySelectedPattern);
 
             Initialize();
@@ -41,13 +43,9 @@ namespace HueController.ViewModels
         {
             try
             {
-                // Retrieve Bridge IP and API Key
-                _bridgeIp = await SecureStorage.GetAsync("BridgeIp");
-                _apiKey = await SecureStorage.GetAsync("ApiKey");
-
                 if (string.IsNullOrEmpty(_bridgeIp) || string.IsNullOrEmpty(_apiKey))
                 {
-                    throw new InvalidOperationException("Bridge IP or API Key is missing. Please reconnect.");
+                    throw new InvalidOperationException("Bridge IP or API Key is missing.");
                 }
 
                 LoadLights();

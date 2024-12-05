@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-05T18:52:57.485</Modified>
+      <Modified>2024-12-05T19:37:13.136</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HueController.dll">
       <PackagePath>HueController.dll</PackagePath>
-      <Modified>2024-12-05T18:52:56.938</Modified>
+      <Modified>2024-12-05T19:37:12.576</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>HueController.exe</PackagePath>
-      <Modified>2024-12-05T18:52:56.944</Modified>
+      <Modified>2024-12-05T19:37:12.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -292,7 +292,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\nl\HueController.resources.dll">
       <PackagePath>nl\HueController.resources.dll</PackagePath>
-      <Modified>2024-12-05T18:52:57.332</Modified>
+      <Modified>2024-12-05T19:37:12.979</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -580,11 +580,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueController.Domain\bin\Debug\net8.0\HueController.Domain.dll">
       <PackagePath>HueController.Domain.dll</PackagePath>
-      <Modified>2024-12-05T11:08:58.941</Modified>
+      <Modified>2024-12-05T19:16:36.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\bin\Debug\net8.0\HueController.Infrastructure.dll">
       <PackagePath>HueController.Infrastructure.dll</PackagePath>
-      <Modified>2024-12-05T18:44:20.650</Modified>
+      <Modified>2024-12-05T19:16:37.169</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\.nuget\packages\microsoft.maui.controls.compatibility\8.0.82\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

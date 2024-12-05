@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HueController.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2082506466a969cea11954e74bd8df450aed9c97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b65df8d60fe0f5d1d3e57194ef4cbaeb103f542")]
 [assembly: System.Reflection.AssemblyProductAttribute("HueController.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HueController.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
