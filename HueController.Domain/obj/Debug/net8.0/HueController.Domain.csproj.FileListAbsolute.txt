@@ -1,0 +1,11 @@
+C:\Users\kwint\source\repos\HueControllerApp\HueController.Domain\bin\Debug\net8.0\HueController.Domain.deps.json
+C:\Users\kwint\source\repos\HueControllerApp\HueController.Domain\bin\Debug\net8.0\HueController.Domain.dll
+C:\Users\kwint\source\repos\HueControllerApp\HueController.Domain\bin\Debug\net8.0\HueController.Domain.pdb
+C:\Users\kwint\source\repos\HueControllerApp\HueController.Domain\obj\Debug\net8.0\HueController.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kwint\source\repos\HueControllerApp\HueController.Domain\obj\Debug\net8.0\HueController.Domain.AssemblyInfoInputs.cache
+C:\Users\kwint\source\repos\HueControllerApp\HueController.Domain\obj\Debug\net8.0\HueController.Domain.AssemblyInfo.cs
+C:\Users\kwint\source\repos\HueControllerApp\HueController.Domain\obj\Debug\net8.0\HueController.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kwint\source\repos\HueControllerApp\HueController.Domain\obj\Debug\net8.0\HueController.Domain.dll
+C:\Users\kwint\source\repos\HueControllerApp\HueController.Domain\obj\Debug\net8.0\refint\HueController.Domain.dll
+C:\Users\kwint\source\repos\HueControllerApp\HueController.Domain\obj\Debug\net8.0\HueController.Domain.pdb
+C:\Users\kwint\source\repos\HueControllerApp\HueController.Domain\obj\Debug\net8.0\ref\HueController.Domain.dll

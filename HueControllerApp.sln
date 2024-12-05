@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HueController", "HueControllerApp\HueController.csproj", "{4F73B9BB-DE6F-422D-B87A-608EE6141B17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HueController.Domain", "HueController.Domain\HueController.Domain.csproj", "{3A997E81-A1C3-4FF2-871B-A5365E7F1431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HueController.Infrastructure", "HueController.Infrastructure\HueController.Infrastructure.csproj", "{7264CCD6-CFBC-4DB6-801F-4F3D963C703E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F73B9BB-DE6F-422D-B87A-608EE6141B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F73B9BB-DE6F-422D-B87A-608EE6141B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F73B9BB-DE6F-422D-B87A-608EE6141B17}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4F73B9BB-DE6F-422D-B87A-608EE6141B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F73B9BB-DE6F-422D-B87A-608EE6141B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F73B9BB-DE6F-422D-B87A-608EE6141B17}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3A997E81-A1C3-4FF2-871B-A5365E7F1431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A997E81-A1C3-4FF2-871B-A5365E7F1431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A997E81-A1C3-4FF2-871B-A5365E7F1431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A997E81-A1C3-4FF2-871B-A5365E7F1431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7264CCD6-CFBC-4DB6-801F-4F3D963C703E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7264CCD6-CFBC-4DB6-801F-4F3D963C703E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7264CCD6-CFBC-4DB6-801F-4F3D963C703E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7264CCD6-CFBC-4DB6-801F-4F3D963C703E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5957BFD5-29CD-4FEA-8C9C-BCA2025B1FD2}
+	EndGlobalSection
+EndGlobal

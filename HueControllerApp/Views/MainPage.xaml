@@ -1,0 +1,36 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HueController.Views"
+             xmlns:converters="clr-namespace:HueController.Converters"
+             x:Class="HueController.Views.MainPage"
+             Title="Hue Lights">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:HueToColorConverter x:Key="HueToColorConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <CollectionView ItemsSource="{Binding Lights}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10">
+                        <Label Text="{Binding Name}" FontSize="20" />
+                        <Switch IsToggled="{Binding IsOn}" />
+
+                        <Label Text="Brightness" FontSize="14" />
+                        <Slider Minimum="0" Maximum="254" Value="{Binding Brightness}" />
+
+                        <Label Text="Color (Hue)" FontSize="14" />
+                        <Slider Minimum="0" Maximum="65535"
+                                Value="{Binding Hue}" 
+                                BackgroundColor="{Binding Hue, Converter={StaticResource HueToColorConverter}}"/>
+
+                        <Label Text="Saturation" FontSize="14" />
+                        <Slider Minimum="0" Maximum="254" Value="{Binding Saturation}" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>
