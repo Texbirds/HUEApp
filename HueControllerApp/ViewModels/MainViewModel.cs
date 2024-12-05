@@ -22,9 +22,12 @@ namespace HueController.ViewModels
             Lights = new ObservableCollection<Light>();
             Patterns = new ObservableCollection<LightPattern>
             {
-                new LightPattern { Name = "Party Mode", Hue = 5000, Saturation = 254, Brightness = 200, IsOn = true },
+                new LightPattern { Name = "Party Mode", IsOn = true }, 
                 new LightPattern { Name = "Relax Mode", Hue = 10000, Saturation = 150, Brightness = 100, IsOn = true },
-                new LightPattern { Name = "Sleep Mode", IsOn = false }
+                new LightPattern { Name = "Sleep Mode", IsOn = false },
+                new LightPattern { Name = "Rainbow", IsOn = true }, 
+                new LightPattern { Name = "Warm Evening", Hue = 5000, Saturation = 200, Brightness = 180, IsOn = true },
+                new LightPattern { Name = "Cool Morning", Hue = 45000, Saturation = 100, Brightness = 220, IsOn = true }
             };
 
             _apiClient = new HueBridgeApiClient();
@@ -102,8 +105,13 @@ namespace HueController.ViewModels
 
             try
             {
-                foreach (var light in Lights)
+                var random = new Random();
+                int[] rainbowHues = { 0, 10000, 20000, 30000, 40000, 50000, 60000 }; 
+
+                for (int i = 0; i < Lights.Count; i++)
                 {
+                    var light = Lights[i];
+
                     if (SelectedPattern.IsOn.HasValue)
                         light.IsOn = SelectedPattern.IsOn.Value;
 
@@ -115,6 +123,19 @@ namespace HueController.ViewModels
 
                     if (SelectedPattern.Saturation.HasValue)
                         light.Saturation = SelectedPattern.Saturation.Value;
+
+                    if (SelectedPattern.Name == "Party Mode")
+                    {
+                        light.Hue = random.Next(0, 65535);
+                        light.Saturation = random.Next(200, 254);
+                        light.Brightness = random.Next(150, 254);
+                    }
+                    else if (SelectedPattern.Name == "Rainbow")
+                    {
+                        light.Hue = rainbowHues[i % rainbowHues.Length];
+                        light.Saturation = 254;
+                        light.Brightness = 200;
+                    }
 
                     await Task.WhenAll(
                         _apiClient.ToggleLight(_bridgeIp, _apiKey, light.Id, light.IsOn),
@@ -128,5 +149,6 @@ namespace HueController.ViewModels
                 Console.WriteLine($"Error applying pattern: {ex.Message}");
             }
         }
+
     }
 }

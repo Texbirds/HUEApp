@@ -10,35 +10,37 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <StackLayout>
-        <CollectionView ItemsSource="{Binding Lights}">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout Padding="10">
-                        <Label Text="{Binding Name}" FontSize="20" />
-                        <Switch IsToggled="{Binding IsOn}" />
+    <ScrollView>
+        <StackLayout>
+            <CollectionView ItemsSource="{Binding Lights}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding Name}" FontSize="20" />
+                            <Switch IsToggled="{Binding IsOn}" />
 
-                        <Label Text="Brightness" FontSize="14" />
-                        <Slider Minimum="0" Maximum="254" Value="{Binding Brightness}" />
+                            <Label Text="Brightness" FontSize="14" />
+                            <Slider Minimum="0" Maximum="254" Value="{Binding Brightness}" />
 
-                        <Label Text="Color (Hue)" FontSize="14" />
-                        <Slider Minimum="0" Maximum="65535"
-                                Value="{Binding Hue}" 
-                                BackgroundColor="{Binding Hue, Converter={StaticResource HueToColorConverter}}"/>
+                            <Label Text="Color (Hue)" FontSize="14" />
+                            <Slider Minimum="0" Maximum="65535"
+                                    Value="{Binding Hue}" 
+                                    BackgroundColor="{Binding Hue, Converter={StaticResource HueToColorConverter}}"/>
 
-                        <Label Text="Saturation" FontSize="14" />
-                        <Slider Minimum="0" Maximum="254" Value="{Binding Saturation}" />
-                    </StackLayout>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+                            <Label Text="Saturation" FontSize="14" />
+                            <Slider Minimum="0" Maximum="254" Value="{Binding Saturation}" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
 
-        <Picker Title="Select a Pattern"
-                ItemsSource="{Binding Patterns}"
-                ItemDisplayBinding="{Binding Name}"
-                SelectedItem="{Binding SelectedPattern}" />
+            <Picker Title="Select a Pattern"
+                    ItemsSource="{Binding Patterns}"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedItem="{Binding SelectedPattern}" />
 
-        <Button Text="Apply Pattern"
-                Command="{Binding ApplyPatternCommand}" />
-    </StackLayout>
+            <Button Text="Apply Pattern"
+                    Command="{Binding ApplyPatternCommand}" />
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
