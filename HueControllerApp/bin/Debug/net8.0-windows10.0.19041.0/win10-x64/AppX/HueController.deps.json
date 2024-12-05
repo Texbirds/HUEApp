@@ -18,6 +18,11 @@
         },
         "runtime": {
           "HueController.dll": {}
+        },
+        "resources": {
+          "nl/HueController.resources.dll": {
+            "locale": "nl"
+          }
         }
       },
       "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.44": {

@@ -32,5 +32,13 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+
+        <Picker Title="Select a Pattern"
+                ItemsSource="{Binding Patterns}"
+                ItemDisplayBinding="{Binding Name}"
+                SelectedItem="{Binding SelectedPattern}" />
+
+        <Button Text="Apply Pattern"
+                Command="{Binding ApplyPatternCommand}" />
     </StackLayout>
 </ContentPage>

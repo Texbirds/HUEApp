@@ -217,6 +217,9 @@
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HueController.deps.json">
       <PackagePath>HueController.deps.json</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\nl\HueController.resources.dll">
+      <PackagePath>nl\HueController.resources.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
     </AppxPackagedFile>

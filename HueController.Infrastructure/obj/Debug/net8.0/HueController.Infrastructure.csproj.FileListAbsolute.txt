@@ -13,3 +13,4 @@ C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\De
 C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\Debug\net8.0\refint\HueController.Infrastructure.dll
 C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\Debug\net8.0\HueController.Infrastructure.pdb
 C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\Debug\net8.0\ref\HueController.Infrastructure.dll
+C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\Debug\net8.0\HueController.Infrastructure.sourcelink.json
