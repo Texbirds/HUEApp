@@ -2,24 +2,65 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:HueControllerApp.ViewModels"
              x:Class="HueController.Views.ConnectPage"
-             Title="Connect to Bridges">
+             Title="Connect to Bridges"
+             BackgroundColor="#F9F9F9">
 
-    <StackLayout Padding="10">
-        <Label Text="Enter the IP Address of the HUE Bridge:" FontSize="16" />
-        <Entry Placeholder="e.g., 192.168.1.179" Text="{Binding BridgeIp}" />
-        <Button Text="Connect" Command="{Binding ConnectCommand}" />
-        <Label Text="{Binding ConnectionStatus}" FontSize="14" TextColor="Red" />
+    <StackLayout Padding="20" Spacing="15">
+        <!-- Header Section -->
+        <StackLayout BackgroundColor="#4CAF50" Padding="20,10">
+            <Label Text="Connect to Bridges"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   HorizontalOptions="Center" />
+        </StackLayout>
 
-        <Label Text="Connected Bridges:" FontSize="16" />
-        <CollectionView ItemsSource="{Binding ConnectedBridges}">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout Padding="10">
-                        <Label Text="{Binding IpAddress}" FontSize="14" />
-                        <Button Text="Open" Command="{Binding Source={RelativeSource AncestorType={x:Type local:ConnectViewModel}}, Path=OpenBridgeCommand}" CommandParameter="{Binding}" />
-                    </StackLayout>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+        <!-- Connect Input Section -->
+        <StackLayout>
+            <Label Text="Enter the IP Address of the HUE Bridge:"
+                   FontSize="16"
+                   TextColor="Black" />
+            <Entry Placeholder="e.g., 192.168.1.179"
+                   Text="{Binding BridgeIp}"
+                   BackgroundColor="White"
+                   TextColor="Black"
+                   Margin="0,5,0,10" />
+            <Button Text="Connect"
+                    Command="{Binding ConnectCommand}"
+                    BackgroundColor="#4CAF50"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="10" />
+            <Label Text="{Binding ConnectionStatus}"
+                   FontSize="14"
+                   TextColor="Red"
+                   Margin="0,5,0,0" />
+        </StackLayout>
+
+        <!-- Connected Bridges Section -->
+        <StackLayout>
+            <Label Text="Connected Bridges:"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   Margin="0,15,0,5" />
+            <CollectionView ItemsSource="{Binding ConnectedBridges}" Margin="0,10,0,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BackgroundColor="White" HasShadow="True" CornerRadius="10" Padding="10" Margin="5">
+                            <StackLayout Orientation="Horizontal" Spacing="10">
+                                <Label Text="{Binding IpAddress}" FontSize="16" TextColor="Black" VerticalOptions="Center" />
+                                <Button Text="Open"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type local:ConnectViewModel}}, Path=OpenBridgeCommand}"
+                                        CommandParameter="{Binding}"
+                                        BackgroundColor="#FF5722"
+                                        TextColor="White"
+                                        CornerRadius="10" />
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
     </StackLayout>
 </ContentPage>

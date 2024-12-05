@@ -3,7 +3,9 @@
              xmlns:local="clr-namespace:HueController.Views"
              xmlns:converters="clr-namespace:HueController.Converters"
              x:Class="HueController.Views.MainPage"
-             Title="Hue Lights">
+             Title="Hue Lights"
+             BackgroundColor="#F9F9F9">
+
     <ContentPage.Resources>
         <ResourceDictionary>
             <converters:HueToColorConverter x:Key="HueToColorConverter" />
@@ -11,36 +13,48 @@
     </ContentPage.Resources>
 
     <ScrollView>
-        <StackLayout>
-            <CollectionView ItemsSource="{Binding Lights}">
+        <StackLayout Padding="20" Spacing="15">
+            <!-- Light Controls -->
+            <CollectionView ItemsSource="{Binding Lights}" Margin="0,10,0,10">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout Padding="10">
-                            <Label Text="{Binding Name}" FontSize="20" />
-                            <Switch IsToggled="{Binding IsOn}" />
+                        <Frame BackgroundColor="White" HasShadow="True" CornerRadius="15" Padding="15" Margin="5">
+                            <StackLayout>
+                                <Label Text="{Binding Name}" FontSize="20" FontAttributes="Bold" TextColor="Black" />
+                                <Switch IsToggled="{Binding IsOn}" HorizontalOptions="Start" />
 
-                            <Label Text="Brightness" FontSize="14" />
-                            <Slider Minimum="0" Maximum="254" Value="{Binding Brightness}" />
+                                <Label Text="Brightness" FontSize="14" TextColor="Black" />
+                                <Slider Minimum="0" Maximum="254" Value="{Binding Brightness}" ThumbColor="#FF5722" />
 
-                            <Label Text="Color (Hue)" FontSize="14" />
-                            <Slider Minimum="0" Maximum="65535"
-                                    Value="{Binding Hue}" 
-                                    BackgroundColor="{Binding Hue, Converter={StaticResource HueToColorConverter}}"/>
+                                <Label Text="Color (Hue)" FontSize="14" TextColor="Black" />
+                                <Slider Minimum="0" Maximum="65535" Value="{Binding Hue}"
+                                        BackgroundColor="{Binding Hue, Converter={StaticResource HueToColorConverter}}"
+                                        ThumbColor="#FF5722" />
 
-                            <Label Text="Saturation" FontSize="14" />
-                            <Slider Minimum="0" Maximum="254" Value="{Binding Saturation}" />
-                        </StackLayout>
+                                <Label Text="Saturation" FontSize="14" TextColor="Black" />
+                                <Slider Minimum="0" Maximum="254" Value="{Binding Saturation}" ThumbColor="#FF5722" />
+                            </StackLayout>
+                        </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
+            <!-- Patterns Picker -->
             <Picker Title="Select a Pattern"
                     ItemsSource="{Binding Patterns}"
                     ItemDisplayBinding="{Binding Name}"
-                    SelectedItem="{Binding SelectedPattern}" />
+                    SelectedItem="{Binding SelectedPattern}"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    Margin="0,10,0,10" />
 
             <Button Text="Apply Pattern"
-                    Command="{Binding ApplyPatternCommand}" />
+                    Command="{Binding ApplyPatternCommand}"
+                    BackgroundColor="#4CAF50"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="10" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

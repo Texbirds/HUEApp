@@ -8,9 +8,9 @@ C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\De
 C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\Debug\net8.0\HueController.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\Debug\net8.0\HueController.Infrastructure.AssemblyInfo.cs
 C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\Debug\net8.0\HueController.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\Debug\net8.0\HueController.Infrastructure.sourcelink.json
 C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\Debug\net8.0\HueContr.C5C6C99F.Up2Date
 C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\Debug\net8.0\HueController.Infrastructure.dll
 C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\Debug\net8.0\refint\HueController.Infrastructure.dll
 C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\Debug\net8.0\HueController.Infrastructure.pdb
 C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\Debug\net8.0\ref\HueController.Infrastructure.dll
-C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\obj\Debug\net8.0\HueController.Infrastructure.sourcelink.json
