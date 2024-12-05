@@ -18,48 +18,76 @@ namespace HueController.Infrastructure.ApiClients
         public async Task<string> RegisterAppAsync(string bridgeIp, string deviceType)
         {
             var url = $"http://{bridgeIp}/api";
-            var body = JsonSerializer.Serialize(new { devicetype = deviceType });
+            var body = JsonSerializer.Serialize(new { devicetype = deviceType, generateclientkey = true });
 
-            var response = await _httpClient.PostAsync(url, new StringContent(body));
-            var jsonResponse = await response.Content.ReadAsStringAsync();
-
-            var parsed = JsonSerializer.Deserialize<dynamic>(jsonResponse);
-
-            if (parsed?[0]?.success != null)
+            try
             {
-                return parsed[0].success.username;
-            }
-            else if (parsed?[0]?.error != null)
-            {
-                throw new InvalidOperationException(parsed[0].error.description);
-            }
+                var response = await _httpClient.PostAsync(url, new StringContent(body));
+                response.EnsureSuccessStatusCode(); // Throw an exception if the status code is not successful
+                var jsonResponse = await response.Content.ReadAsStringAsync();
 
-            return null;
+                using JsonDocument doc = JsonDocument.Parse(jsonResponse);
+                if (doc.RootElement.ValueKind == JsonValueKind.Array && doc.RootElement.GetArrayLength() > 0)
+                {
+                    var responseObject = doc.RootElement[0];
+
+                    if (responseObject.TryGetProperty("success", out var successElement))
+                    {
+                        if (successElement.TryGetProperty("username", out var usernameElement))
+                        {
+                            return usernameElement.GetString();
+                        }
+                    }
+                    else if (responseObject.TryGetProperty("error", out var errorElement))
+                    {
+                        throw new InvalidOperationException(errorElement.GetProperty("description").GetString());
+                    }
+                }
+
+                throw new InvalidOperationException("Unexpected response from the bridge.");
+            }
+            catch (HttpRequestException ex)
+            {
+                throw new InvalidOperationException($"Connection failed: {ex.Message}");
+            }
         }
+
 
         public async Task<List<Light>> GetLights(string bridgeIp, string apiKey)
         {
             var url = $"http://{bridgeIp}/api/{apiKey}/lights";
             var response = await _httpClient.GetStringAsync(url);
-            var lightsResponse = JsonSerializer.Deserialize<Dictionary<string, dynamic>>(response);
+
+            var lightsResponse = JsonSerializer.Deserialize<Dictionary<string, JsonElement>>(response);
 
             var lights = new List<Light>();
-            foreach (var (id, data) in lightsResponse)
+
+            if (lightsResponse != null)
             {
-                var state = data.state;
-                lights.Add(new Light
+                foreach (var lightEntry in lightsResponse)
                 {
-                    Id = id,
-                    Name = data.name,
-                    IsOn = state.on,
-                    Brightness = state.bri,
-                    Hue = state.hue,
-                    Saturation = state.sat
-                });
+                    var id = lightEntry.Key; // Light ID
+                    var data = lightEntry.Value;
+
+                    var state = data.GetProperty("state");
+                    var light = new Light
+                    {
+                        Id = id,
+                        Name = data.GetProperty("name").GetString(),
+                        IsOn = state.GetProperty("on").GetBoolean(),
+                        Brightness = state.GetProperty("bri").GetInt32(),
+                        Hue = state.GetProperty("hue").GetInt32(),
+                        Saturation = state.GetProperty("sat").GetInt32()
+                    };
+
+                    lights.Add(light);
+                }
             }
 
             return lights;
         }
+
+
 
         public async Task<bool> ToggleLight(string bridgeIp, string apiKey, string lightId, bool isOn)
         {

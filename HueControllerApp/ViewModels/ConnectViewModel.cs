@@ -31,10 +31,10 @@ namespace HueControllerApp.ViewModels
                 var apiKey = await _apiClient.RegisterAppAsync(BridgeIp, "my_hue_app");
                 ConnectionStatus = "Connected! API Key: " + apiKey;
 
-                SecureStorage.SetAsync("BridgeIp", BridgeIp);
-                SecureStorage.SetAsync("ApiKey", apiKey);
+                await SecureStorage.SetAsync("BridgeIp", BridgeIp);
+                await SecureStorage.SetAsync("ApiKey", apiKey);
 
-                await Shell.Current.GoToAsync("MainPage");
+                await Shell.Current.GoToAsync("///MainPage");
             }
             catch (Exception ex)
             {
@@ -43,6 +43,8 @@ namespace HueControllerApp.ViewModels
 
             OnPropertyChanged(nameof(ConnectionStatus));
         }
+
+
 
 
         private void SaveConnectionDetails(string ip, string apiKey)
