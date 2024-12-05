@@ -1,0 +1,29 @@
+# Ignore Visual Studio temporary files, build results, and
+# personal settings
+.vscode/
+.vs/
+*.user
+*.userosscache
+*.suo
+*.unsuccessfulbuild
+*.userprefs
+
+# Ignore build output
+bin/
+obj/
+Debug/
+Release/
+
+# Ignore Rider temporary files
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore environment settings
+.env
+.env.*
+
+# Ignore system files
+.DS_Store
+Thumbs.db
