@@ -14,9 +14,9 @@ namespace HueController.Views
             InitializeComponent();
         }
 
-        protected override void OnAppearing()
+        protected override void OnNavigatedTo(NavigatedToEventArgs args)
         {
-            base.OnAppearing();
+            base.OnNavigatedTo(args);
 
             if (!string.IsNullOrEmpty(IpAddress) && !string.IsNullOrEmpty(ApiKey))
             {

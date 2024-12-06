@@ -1,17 +1,36 @@
-﻿using HueController.Domain.Models;
-using HueController.Infrastructure.ApiClients;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Threading.Tasks;
 using System.Windows.Input;
+using HueController.Domain.Models;
+using HueController.Infrastructure.ApiClients;
+using HueControllerApp.ViewModels;
 using Microsoft.Maui.Controls;
 
 namespace HueController.ViewModels
 {
-    public class MainViewModel
+    public class MainViewModel : BaseViewModel
     {
         public ObservableCollection<Light> Lights { get; set; }
         public ObservableCollection<LightPattern> Patterns { get; set; }
         public LightPattern SelectedPattern { get; set; }
         public ICommand ApplyPatternCommand { get; }
+        public ICommand RefreshCommand { get; }
+
+        private bool _isRefreshing;
+        public bool IsRefreshing
+        {
+            get => _isRefreshing;
+            set
+            {
+                if (_isRefreshing != value)
+                {
+                    _isRefreshing = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
 
         private readonly HueBridgeApiClient _apiClient;
         private string _bridgeIp;
@@ -26,15 +45,16 @@ namespace HueController.ViewModels
             Lights = new ObservableCollection<Light>();
             Patterns = new ObservableCollection<LightPattern>
             {
-                new LightPattern { Name = "Party Mode", IsOn = true }, 
+                new LightPattern { Name = "Party Mode", IsOn = true },
                 new LightPattern { Name = "Relax Mode", Hue = 10000, Saturation = 150, Brightness = 100, IsOn = true },
                 new LightPattern { Name = "Sleep Mode", IsOn = false },
-                new LightPattern { Name = "Rainbow", IsOn = true }, 
+                new LightPattern { Name = "Rainbow", IsOn = true },
                 new LightPattern { Name = "Warm Evening", Hue = 5000, Saturation = 200, Brightness = 180, IsOn = true },
                 new LightPattern { Name = "Cool Morning", Hue = 45000, Saturation = 100, Brightness = 220, IsOn = true }
             };
 
             ApplyPatternCommand = new Command(ApplySelectedPattern);
+            RefreshCommand = new Command(async () => await RefreshLights());
 
             Initialize();
         }
@@ -48,7 +68,7 @@ namespace HueController.ViewModels
                     throw new InvalidOperationException("Bridge IP or API Key is missing.");
                 }
 
-                LoadLights();
+                await LoadLights(); 
             }
             catch (Exception ex)
             {
@@ -56,44 +76,89 @@ namespace HueController.ViewModels
             }
         }
 
-        private async void LoadLights()
+        private async Task LoadLights()
         {
             try
             {
-                Lights.Clear();
+                var fetchedLights = await _apiClient.GetLights(_bridgeIp, _apiKey);
 
-                // Fetch lights from the bridge
-                var lights = await _apiClient.GetLights(_bridgeIp, _apiKey);
-
-                foreach (var light in lights)
+                foreach (var fetchedLight in fetchedLights)
                 {
-                    light.PropertyChanged += async (sender, args) =>
+                    var existingLight = Lights.FirstOrDefault(l => l.Id == fetchedLight.Id);
+                    if (existingLight != null)
                     {
-                        if (sender is Light changedLight)
-                        {
-                            switch (args.PropertyName)
-                            {
-                                case nameof(Light.IsOn):
-                                    await _apiClient.ToggleLight(_bridgeIp, _apiKey, changedLight.Id, changedLight.IsOn);
-                                    break;
-                                case nameof(Light.Brightness):
-                                    await _apiClient.SetBrightness(_bridgeIp, _apiKey, changedLight.Id, changedLight.Brightness);
-                                    break;
-                                case nameof(Light.Hue):
-                                    await _apiClient.SetColor(_bridgeIp, _apiKey, changedLight.Id, changedLight.Hue, changedLight.Saturation);
-                                    break;
-                                case nameof(Light.Saturation):
-                                    await _apiClient.SetColor(_bridgeIp, _apiKey, changedLight.Id, changedLight.Hue, changedLight.Saturation);
-                                    break;
-                            }
-                        }
-                    };
-                    Lights.Add(light);
+                        existingLight.Name = fetchedLight.Name;
+                        existingLight.IsOn = fetchedLight.IsOn;
+                        existingLight.Brightness = fetchedLight.Brightness;
+                        existingLight.Hue = fetchedLight.Hue;
+                        existingLight.Saturation = fetchedLight.Saturation;
+
+                        existingLight.PropertyChanged -= Light_PropertyChanged;
+                        existingLight.PropertyChanged += Light_PropertyChanged;
+                    }
+                    else
+                    {
+                        fetchedLight.PropertyChanged += Light_PropertyChanged;
+                        Lights.Add(fetchedLight);
+                    }
                 }
+
+                var lightsToRemove = Lights.Where(l => fetchedLights.All(f => f.Id != l.Id)).ToList();
+                foreach (var lightToRemove in lightsToRemove)
+                {
+                    lightToRemove.PropertyChanged -= Light_PropertyChanged;
+                    Lights.Remove(lightToRemove);
+                }
+
+                Console.WriteLine($"Lights count after refresh: {Lights.Count}");
+                Console.WriteLine($"Fetched lights count: {fetchedLights.Count}");
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error loading lights: {ex.Message}");
+            }
+        }
+
+
+
+
+        private async void Light_PropertyChanged(object sender, PropertyChangedEventArgs args)
+        {
+            if (sender is Light changedLight)
+            {
+                try
+                {
+                    switch (args.PropertyName)
+                    {
+                        case nameof(Light.IsOn):
+                            await _apiClient.ToggleLight(_bridgeIp, _apiKey, changedLight.Id, changedLight.IsOn);
+                            break;
+                        case nameof(Light.Brightness):
+                            await _apiClient.SetBrightness(_bridgeIp, _apiKey, changedLight.Id, changedLight.Brightness);
+                            break;
+                        case nameof(Light.Hue):
+                        case nameof(Light.Saturation):
+                            await _apiClient.SetColor(_bridgeIp, _apiKey, changedLight.Id, changedLight.Hue, changedLight.Saturation);
+                            break;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error updating light state: {ex.Message}");
+                }
+            }
+        }
+
+        private async Task RefreshLights()
+        {
+            try
+            {
+                IsRefreshing = true;
+                await LoadLights(); 
+            }
+            finally
+            {
+                IsRefreshing = false;
             }
         }
 
@@ -104,7 +169,7 @@ namespace HueController.ViewModels
             try
             {
                 var random = new Random();
-                int[] rainbowHues = { 0, 10000, 20000, 30000, 40000, 50000, 60000 }; 
+                int[] rainbowHues = { 0, 10000, 20000, 30000, 40000, 50000, 60000 };
 
                 for (int i = 0; i < Lights.Count; i++)
                 {
@@ -147,6 +212,5 @@ namespace HueController.ViewModels
                 Console.WriteLine($"Error applying pattern: {ex.Message}");
             }
         }
-
     }
 }

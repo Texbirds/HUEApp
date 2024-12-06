@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-05T20:25:09.030</Modified>
+      <Modified>2024-12-06T10:02:59.235</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-05T20:24:50.160</Modified>
+      <Modified>2024-12-06T09:21:56.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HueController.runtimeconfig.json">
       <PackagePath>HueController.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HueController.dll">
       <PackagePath>HueController.dll</PackagePath>
-      <Modified>2024-12-05T20:25:08.453</Modified>
+      <Modified>2024-12-06T10:02:58.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>HueController.exe</PackagePath>
-      <Modified>2024-12-05T20:25:08.458</Modified>
+      <Modified>2024-12-06T10:02:58.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -288,11 +288,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HueController.deps.json">
       <PackagePath>HueController.deps.json</PackagePath>
-      <Modified>2024-12-05T20:24:50.042</Modified>
+      <Modified>2024-12-06T09:21:56.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\nl\HueController.resources.dll">
       <PackagePath>nl\HueController.resources.dll</PackagePath>
-      <Modified>2024-12-05T20:25:08.872</Modified>
+      <Modified>2024-12-06T10:02:59.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
