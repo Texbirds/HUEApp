@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-07T09:00:57.691</Modified>
+      <Modified>2024-12-07T10:11:17.983</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-07T09:00:57.553</Modified>
+      <Modified>2024-12-07T09:57:14.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HueController.runtimeconfig.json">
       <PackagePath>HueController.runtimeconfig.json</PackagePath>
-      <Modified>2024-12-07T09:00:57.290</Modified>
+      <Modified>2024-12-07T10:06:48.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HueController.dll">
       <PackagePath>HueController.dll</PackagePath>
-      <Modified>2024-12-07T09:00:56.003</Modified>
+      <Modified>2024-12-07T10:11:16.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>HueController.exe</PackagePath>
-      <Modified>2024-12-07T09:00:56.015</Modified>
+      <Modified>2024-12-07T10:11:16.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -56,23 +56,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-12-07T09:00:39.016</Modified>
+      <Modified>2024-12-07T09:57:10.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-12-07T09:00:39.028</Modified>
+      <Modified>2024-12-07T09:57:10.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-12-07T09:00:39.044</Modified>
+      <Modified>2024-12-07T09:57:10.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-12-07T09:00:39.069</Modified>
+      <Modified>2024-12-07T09:57:10.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-12-07T09:00:39.165</Modified>
+      <Modified>2024-12-07T09:57:10.812</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -84,215 +84,215 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-12-07T09:00:40.204</Modified>
+      <Modified>2024-12-07T09:57:12.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.195</Modified>
+      <Modified>2024-12-07T09:57:12.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.195</Modified>
+      <Modified>2024-12-07T09:57:12.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.195</Modified>
+      <Modified>2024-12-07T09:57:12.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.194</Modified>
+      <Modified>2024-12-07T09:57:12.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.194</Modified>
+      <Modified>2024-12-07T09:57:12.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.200</Modified>
+      <Modified>2024-12-07T09:57:12.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.200</Modified>
+      <Modified>2024-12-07T09:57:12.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.199</Modified>
+      <Modified>2024-12-07T09:57:12.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.200</Modified>
+      <Modified>2024-12-07T09:57:12.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.200</Modified>
+      <Modified>2024-12-07T09:57:12.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.201</Modified>
+      <Modified>2024-12-07T09:57:12.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.201</Modified>
+      <Modified>2024-12-07T09:57:12.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.201</Modified>
+      <Modified>2024-12-07T09:57:12.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.201</Modified>
+      <Modified>2024-12-07T09:57:12.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.201</Modified>
+      <Modified>2024-12-07T09:57:12.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.203</Modified>
+      <Modified>2024-12-07T09:57:12.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.203</Modified>
+      <Modified>2024-12-07T09:57:12.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.203</Modified>
+      <Modified>2024-12-07T09:57:12.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.203</Modified>
+      <Modified>2024-12-07T09:57:12.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.203</Modified>
+      <Modified>2024-12-07T09:57:12.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.202</Modified>
+      <Modified>2024-12-07T09:57:12.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.202</Modified>
+      <Modified>2024-12-07T09:57:12.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.202</Modified>
+      <Modified>2024-12-07T09:57:12.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.202</Modified>
+      <Modified>2024-12-07T09:57:12.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.202</Modified>
+      <Modified>2024-12-07T09:57:12.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.197</Modified>
+      <Modified>2024-12-07T09:57:12.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.197</Modified>
+      <Modified>2024-12-07T09:57:12.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.197</Modified>
+      <Modified>2024-12-07T09:57:12.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.197</Modified>
+      <Modified>2024-12-07T09:57:12.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.196</Modified>
+      <Modified>2024-12-07T09:57:12.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.198</Modified>
+      <Modified>2024-12-07T09:57:12.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.198</Modified>
+      <Modified>2024-12-07T09:57:12.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.198</Modified>
+      <Modified>2024-12-07T09:57:12.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.198</Modified>
+      <Modified>2024-12-07T09:57:12.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.197</Modified>
+      <Modified>2024-12-07T09:57:12.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.199</Modified>
+      <Modified>2024-12-07T09:57:12.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.199</Modified>
+      <Modified>2024-12-07T09:57:12.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.199</Modified>
+      <Modified>2024-12-07T09:57:12.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.199</Modified>
+      <Modified>2024-12-07T09:57:12.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.198</Modified>
+      <Modified>2024-12-07T09:57:12.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.196</Modified>
+      <Modified>2024-12-07T09:57:12.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.196</Modified>
+      <Modified>2024-12-07T09:57:12.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.196</Modified>
+      <Modified>2024-12-07T09:57:12.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.195</Modified>
+      <Modified>2024-12-07T09:57:12.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.195</Modified>
+      <Modified>2024-12-07T09:57:12.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.205</Modified>
+      <Modified>2024-12-07T09:57:12.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.205</Modified>
+      <Modified>2024-12-07T09:57:12.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.205</Modified>
+      <Modified>2024-12-07T09:57:12.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.204</Modified>
+      <Modified>2024-12-07T09:57:12.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-12-07T09:00:40.204</Modified>
+      <Modified>2024-12-07T09:57:12.344</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HueController.deps.json">
       <PackagePath>HueController.deps.json</PackagePath>
-      <Modified>2024-12-07T09:00:57.179</Modified>
+      <Modified>2024-12-07T10:06:48.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueControllerApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\nl\HueController.resources.dll">
       <PackagePath>nl\HueController.resources.dll</PackagePath>
-      <Modified>2024-12-07T09:00:56.796</Modified>
+      <Modified>2024-12-07T10:11:17.641</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -580,11 +580,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueController.Domain\bin\Debug\net8.0\HueController.Domain.dll">
       <PackagePath>HueController.Domain.dll</PackagePath>
-      <Modified>2024-12-07T09:00:32.820</Modified>
+      <Modified>2024-12-07T09:57:03.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\source\repos\HueControllerApp\HueController.Infrastructure\bin\Debug\net8.0\HueController.Infrastructure.dll">
       <PackagePath>HueController.Infrastructure.dll</PackagePath>
-      <Modified>2024-12-07T09:00:44.533</Modified>
+      <Modified>2024-12-07T09:57:03.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kwint\.nuget\packages\microsoft.maui.controls.compatibility\8.0.82\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
