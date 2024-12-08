@@ -23,7 +23,7 @@ namespace HueController.Infrastructure.ApiClients
             try
             {
                 var response = await _httpClient.PostAsync(url, new StringContent(body));
-                response.EnsureSuccessStatusCode(); // Throw an exception if the status code is not successful
+                response.EnsureSuccessStatusCode();
                 var jsonResponse = await response.Content.ReadAsStringAsync();
 
                 using JsonDocument doc = JsonDocument.Parse(jsonResponse);
@@ -66,7 +66,7 @@ namespace HueController.Infrastructure.ApiClients
             {
                 foreach (var lightEntry in lightsResponse)
                 {
-                    var id = lightEntry.Key; // Light ID
+                    var id = lightEntry.Key; 
                     var data = lightEntry.Value;
 
                     var state = data.GetProperty("state");

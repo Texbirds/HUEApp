@@ -61,7 +61,7 @@ namespace HueController.Tests
 
             app.Tap("ButtonConnect");
 
-            app.WaitForElement(c => c.Marked("LabelConnectionStatus").Text("Error: Invalid IP address"));
+            app.WaitForElement(c => c.Marked("LabelConnectionStatus").Text("Error: Connection failed"));
         }
     }
 }
