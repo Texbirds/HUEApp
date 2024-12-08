@@ -1,5 +1,4 @@
 using HueController.Domain.Models;
-using Xunit;
 
 namespace HueController.Tests.Domain
 {
