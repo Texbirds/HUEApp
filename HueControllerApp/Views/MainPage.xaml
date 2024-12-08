@@ -13,19 +13,20 @@
     </ContentPage.Resources>
 
     <StackLayout Padding="20" Spacing="15">
-        <Button Text="Refresh" 
-        Command="{Binding RefreshCommand}" 
-        BackgroundColor="#4CAF50"
-        TextColor="White"
-        FontAttributes="Bold"
-        CornerRadius="10" 
-        Margin="0,0,0,10" />
-
+        <Button x:Name="ButtonRefresh" AutomationId="ButtonRefresh"
+                Text="Refresh" 
+                Command="{Binding RefreshCommand}" 
+                BackgroundColor="#4CAF50"
+                TextColor="White"
+                FontAttributes="Bold"
+                CornerRadius="10" 
+                Margin="0,0,0,10" />
 
         <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}">
             <ScrollView>
                 <StackLayout>
-                    <CollectionView ItemsSource="{Binding Lights}" Margin="0,10,0,10">
+                    <CollectionView x:Name="LightsList" AutomationId="LightsList"
+                                    ItemsSource="{Binding Lights}" Margin="0,10,0,10">
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
                                 <Frame BackgroundColor="White" HasShadow="True" CornerRadius="15" Padding="15" Margin="5">
@@ -49,7 +50,8 @@
                         </CollectionView.ItemTemplate>
                     </CollectionView>
 
-                    <Picker Title="Select a Pattern"
+                    <Picker x:Name="PatternPicker" AutomationId="PatternPicker"
+                            Title="Select a Pattern"
                             ItemsSource="{Binding Patterns}"
                             ItemDisplayBinding="{Binding Name}"
                             SelectedItem="{Binding SelectedPattern}"
@@ -58,7 +60,8 @@
                             FontAttributes="Bold"
                             Margin="0,10,0,10" />
 
-                    <Button Text="Apply Pattern"
+                    <Button x:Name="ButtonApplyPattern" AutomationId="ButtonApplyPattern"
+                            Text="Apply Pattern"
                             Command="{Binding ApplyPatternCommand}"
                             BackgroundColor="#4CAF50"
                             TextColor="White"

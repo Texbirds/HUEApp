@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4F73B9BB-DE6F-422D-B87A-608EE6141B17}|HueControllerApp\\HueController.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontrollerapp\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F73B9BB-DE6F-422D-B87A-608EE6141B17}|HueControllerApp\\HueController.csproj|solutionrelative:huecontrollerapp\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F73B9BB-DE6F-422D-B87A-608EE6141B17}|HueControllerApp\\HueController.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontrollerapp\\views\\connectpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4F73B9BB-DE6F-422D-B87A-608EE6141B17}|HueControllerApp\\HueController.csproj|solutionrelative:huecontrollerapp\\views\\connectpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D03628F6-6A80-43FB-AAAF-B1198BC73CCB}|HueController.Tests\\HueController.Tests.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontroller.tests\\connectpagetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D03628F6-6A80-43FB-AAAF-B1198BC73CCB}|HueController.Tests\\HueController.Tests.csproj|solutionrelative:huecontroller.tests\\connectpagetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D03628F6-6A80-43FB-AAAF-B1198BC73CCB}|HueController.Tests\\HueController.Tests.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontroller.tests\\lightpatterntests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D03628F6-6A80-43FB-AAAF-B1198BC73CCB}|HueController.Tests\\HueController.Tests.csproj|solutionrelative:huecontroller.tests\\lightpatterntests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D03628F6-6A80-43FB-AAAF-B1198BC73CCB}|HueController.Tests\\HueController.Tests.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontroller.tests\\bridgetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D03628F6-6A80-43FB-AAAF-B1198BC73CCB}|HueController.Tests\\HueController.Tests.csproj|solutionrelative:huecontroller.tests\\bridgetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D03628F6-6A80-43FB-AAAF-B1198BC73CCB}|HueController.Tests\\HueController.Tests.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontroller.tests\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D03628F6-6A80-43FB-AAAF-B1198BC73CCB}|HueController.Tests\\HueController.Tests.csproj|solutionrelative:huecontroller.tests\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A997E81-A1C3-4FF2-871B-A5365E7F1431}|HueController.Domain\\HueController.Domain.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontroller.domain\\services\\ibridgeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A997E81-A1C3-4FF2-871B-A5365E7F1431}|HueController.Domain\\HueController.Domain.csproj|solutionrelative:huecontroller.domain\\services\\ibridgeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A997E81-A1C3-4FF2-871B-A5365E7F1431}|HueController.Domain\\HueController.Domain.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontroller.domain\\services\\ilightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A997E81-A1C3-4FF2-871B-A5365E7F1431}|HueController.Domain\\HueController.Domain.csproj|solutionrelative:huecontroller.domain\\services\\ilightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D03628F6-6A80-43FB-AAAF-B1198BC73CCB}|HueController.Tests\\HueController.Tests.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontroller.tests\\lightpatterntests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D03628F6-6A80-43FB-AAAF-B1198BC73CCB}|HueController.Tests\\HueController.Tests.csproj|solutionrelative:huecontroller.tests\\lightpatterntests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F73B9BB-DE6F-422D-B87A-608EE6141B17}|HueControllerApp\\HueController.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontrollerapp\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +43,8 @@
       "RelativeMoniker": "D:0:0:{7264CCD6-CFBC-4DB6-801F-4F3D963C703E}|HueController.Infrastructure\\HueController.Infrastructure.csproj|solutionrelative:huecontroller.infrastructure\\huecontroller.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D03628F6-6A80-43FB-AAAF-B1198BC73CCB}|HueController.Tests\\HueController.Tests.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontroller.tests\\bridgetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D03628F6-6A80-43FB-AAAF-B1198BC73CCB}|HueController.Tests\\HueController.Tests.csproj|solutionrelative:huecontroller.tests\\bridgetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7264CCD6-CFBC-4DB6-801F-4F3D963C703E}|HueController.Infrastructure\\HueController.Infrastructure.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontroller.infrastructure\\apiclients\\huebridgeapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7264CCD6-CFBC-4DB6-801F-4F3D963C703E}|HueController.Infrastructure\\HueController.Infrastructure.csproj|solutionrelative:huecontroller.infrastructure\\apiclients\\huebridgeapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A997E81-A1C3-4FF2-871B-A5365E7F1431}|HueController.Domain\\HueController.Domain.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontroller.domain\\services\\ilightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A997E81-A1C3-4FF2-871B-A5365E7F1431}|HueController.Domain\\HueController.Domain.csproj|solutionrelative:huecontroller.domain\\services\\ilightservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A997E81-A1C3-4FF2-871B-A5365E7F1431}|HueController.Domain\\HueController.Domain.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontroller.domain\\services\\ibridgeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A997E81-A1C3-4FF2-871B-A5365E7F1431}|HueController.Domain\\HueController.Domain.csproj|solutionrelative:huecontroller.domain\\services\\ibridgeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A997E81-A1C3-4FF2-871B-A5365E7F1431}|HueController.Domain\\HueController.Domain.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontroller.domain\\models\\lightpattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,16 +71,8 @@
       "RelativeMoniker": "D:0:0:{4F73B9BB-DE6F-422D-B87A-608EE6141B17}|HueControllerApp\\HueController.csproj|solutionrelative:huecontrollerapp\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F73B9BB-DE6F-422D-B87A-608EE6141B17}|HueControllerApp\\HueController.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontrollerapp\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4F73B9BB-DE6F-422D-B87A-608EE6141B17}|HueControllerApp\\HueController.csproj|solutionrelative:huecontrollerapp\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F73B9BB-DE6F-422D-B87A-608EE6141B17}|HueControllerApp\\HueController.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontrollerapp\\views\\connectpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F73B9BB-DE6F-422D-B87A-608EE6141B17}|HueControllerApp\\HueController.csproj|solutionrelative:huecontrollerapp\\views\\connectpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F73B9BB-DE6F-422D-B87A-608EE6141B17}|HueControllerApp\\HueController.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontrollerapp\\views\\connectpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4F73B9BB-DE6F-422D-B87A-608EE6141B17}|HueControllerApp\\HueController.csproj|solutionrelative:huecontrollerapp\\views\\connectpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F73B9BB-DE6F-422D-B87A-608EE6141B17}|HueControllerApp\\HueController.csproj|c:\\users\\kwint\\source\\repos\\huecontrollerapp\\huecontrollerapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -133,34 +133,25 @@
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConnectPageTests.cs",
-              "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Tests\\ConnectPageTests.cs",
-              "RelativeDocumentMoniker": "HueController.Tests\\ConnectPageTests.cs",
-              "ToolTip": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Tests\\ConnectPageTests.cs",
-              "RelativeToolTip": "HueController.Tests\\ConnectPageTests.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T09:52:31.149Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueControllerApp\\Views\\MainPage.xaml",
               "RelativeDocumentMoniker": "HueControllerApp\\Views\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueControllerApp\\Views\\MainPage.xaml",
-              "RelativeToolTip": "HueControllerApp\\Views\\MainPage.xaml",
-              "ViewState": "AgIAAAoAAAAAAAAAAADwvx8AAAAxAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueControllerApp\\Views\\MainPage.xaml*",
+              "RelativeToolTip": "HueControllerApp\\Views\\MainPage.xaml*",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwv0oAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-04T22:08:35.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueControllerApp\\Views\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "HueControllerApp\\Views\\MainPage.xaml.cs",
@@ -168,12 +159,11 @@
               "RelativeToolTip": "HueControllerApp\\Views\\MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T22:08:34.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T22:08:34.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueControllerApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "HueControllerApp\\App.xaml.cs",
@@ -181,12 +171,11 @@
               "RelativeToolTip": "HueControllerApp\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:40:40.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T08:40:40.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueControllerApp\\MauiProgram.cs",
               "RelativeDocumentMoniker": "HueControllerApp\\MauiProgram.cs",
@@ -194,12 +183,11 @@
               "RelativeToolTip": "HueControllerApp\\MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:40:49.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T08:40:49.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Bridge.cs",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Domain\\Models\\Bridge.cs",
               "RelativeDocumentMoniker": "HueController.Domain\\Models\\Bridge.cs",
@@ -207,12 +195,11 @@
               "RelativeToolTip": "HueController.Domain\\Models\\Bridge.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T22:02:46.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T22:02:46.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Light.cs",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Domain\\Models\\Light.cs",
               "RelativeDocumentMoniker": "HueController.Domain\\Models\\Light.cs",
@@ -220,12 +207,11 @@
               "RelativeToolTip": "HueController.Domain\\Models\\Light.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAkwDUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T22:02:24.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T22:02:24.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "LightPattern.cs",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Domain\\Models\\LightPattern.cs",
               "RelativeDocumentMoniker": "HueController.Domain\\Models\\LightPattern.cs",
@@ -233,12 +219,11 @@
               "RelativeToolTip": "HueController.Domain\\Models\\LightPattern.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T11:01:28.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T11:01:28.165Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ILightService.cs",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Domain\\Services\\ILightService.cs",
               "RelativeDocumentMoniker": "HueController.Domain\\Services\\ILightService.cs",
@@ -246,12 +231,11 @@
               "RelativeToolTip": "HueController.Domain\\Services\\ILightService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T22:04:12.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T22:04:12.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "IBridgeService.cs",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Domain\\Services\\IBridgeService.cs",
               "RelativeDocumentMoniker": "HueController.Domain\\Services\\IBridgeService.cs",
@@ -259,12 +243,11 @@
               "RelativeToolTip": "HueController.Domain\\Services\\IBridgeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T22:03:22.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T22:03:22.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "HueBridgeApiClient.cs",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Infrastructure\\ApiClients\\HueBridgeApiClient.cs",
               "RelativeDocumentMoniker": "HueController.Infrastructure\\ApiClients\\HueBridgeApiClient.cs",
@@ -272,12 +255,11 @@
               "RelativeToolTip": "HueController.Infrastructure\\ApiClients\\HueBridgeApiClient.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAowFsAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T22:05:03.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T22:05:03.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "BridgeTests.cs",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Tests\\BridgeTests.cs",
               "RelativeDocumentMoniker": "HueController.Tests\\BridgeTests.cs",
@@ -291,6 +273,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Light.cs",
+              "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Tests\\Light.cs",
+              "RelativeDocumentMoniker": "HueController.Tests\\Light.cs",
+              "ToolTip": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Tests\\Light.cs",
+              "RelativeToolTip": "HueController.Tests\\Light.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T09:19:09.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConnectPageTests.cs",
+              "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Tests\\ConnectPageTests.cs",
+              "RelativeDocumentMoniker": "HueController.Tests\\ConnectPageTests.cs",
+              "ToolTip": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Tests\\ConnectPageTests.cs",
+              "RelativeToolTip": "HueController.Tests\\ConnectPageTests.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T09:52:31.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConnectPage.xaml",
+              "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueControllerApp\\Views\\ConnectPage.xaml",
+              "RelativeDocumentMoniker": "HueControllerApp\\Views\\ConnectPage.xaml",
+              "ToolTip": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueControllerApp\\Views\\ConnectPage.xaml*",
+              "RelativeToolTip": "HueControllerApp\\Views\\ConnectPage.xaml*",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwv0YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T08:30:19.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "HueController.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Infrastructure\\HueController.Infrastructure.csproj",
               "RelativeDocumentMoniker": "HueController.Infrastructure\\HueController.Infrastructure.csproj",
@@ -298,12 +319,11 @@
               "RelativeToolTip": "HueController.Infrastructure\\HueController.Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-04T22:07:29.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T22:07:29.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "LightPatternTests.cs",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Tests\\LightPatternTests.cs",
               "RelativeDocumentMoniker": "HueController.Tests\\LightPatternTests.cs",
@@ -311,16 +331,11 @@
               "RelativeToolTip": "HueController.Tests\\LightPatternTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T09:20:10.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "WhenOpened": "2024-12-07T09:20:10.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "BaseViewModel.cs",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueControllerApp\\ViewModels\\BaseViewModel.cs",
               "RelativeDocumentMoniker": "HueControllerApp\\ViewModels\\BaseViewModel.cs",
@@ -328,25 +343,11 @@
               "RelativeToolTip": "HueControllerApp\\ViewModels\\BaseViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:32:13.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T08:32:13.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Light.cs",
-              "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Tests\\Light.cs",
-              "RelativeDocumentMoniker": "HueController.Tests\\Light.cs",
-              "ToolTip": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Tests\\Light.cs",
-              "RelativeToolTip": "HueController.Tests\\Light.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T09:19:09.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ConnectPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueControllerApp\\Views\\ConnectPage.xaml.cs",
               "RelativeDocumentMoniker": "HueControllerApp\\Views\\ConnectPage.xaml.cs",
@@ -354,21 +355,7 @@
               "RelativeToolTip": "HueControllerApp\\Views\\ConnectPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:33:37.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ConnectPage.xaml",
-              "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueControllerApp\\Views\\ConnectPage.xaml",
-              "RelativeDocumentMoniker": "HueControllerApp\\Views\\ConnectPage.xaml",
-              "ToolTip": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueControllerApp\\Views\\ConnectPage.xaml",
-              "RelativeToolTip": "HueControllerApp\\Views\\ConnectPage.xaml",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwv0IAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-05T08:30:19.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T08:33:37.519Z"
             },
             {
               "$type": "Document",
@@ -380,8 +367,7 @@
               "RelativeToolTip": "HueControllerApp\\ViewModels\\MainViewModel.cs",
               "ViewState": "AgIAAJsAAAAAAAAAAAAwwKsAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T22:10:23.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T22:10:23.602Z"
             },
             {
               "$type": "Document",
@@ -393,8 +379,7 @@
               "RelativeToolTip": "HueControllerApp\\ViewModels\\ConnectViewModel.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:31:08.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T08:31:08.603Z"
             },
             {
               "$type": "Document",
@@ -406,21 +391,19 @@
               "RelativeToolTip": "HueControllerApp\\Converters\\HueToColorConverter.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAswBsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T09:04:22.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T09:04:22.119Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "HueController.Tests",
+              "Title": "HueController.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Tests\\HueController.Tests.csproj",
               "RelativeDocumentMoniker": "HueController.Tests\\HueController.Tests.csproj",
               "ToolTip": "C:\\Users\\kwint\\source\\repos\\HueControllerApp\\HueController.Tests\\HueController.Tests.csproj",
               "RelativeToolTip": "HueController.Tests\\HueController.Tests.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-07T09:20:29.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T09:20:29.064Z"
             },
             {
               "$type": "Document",
@@ -432,8 +415,7 @@
               "RelativeToolTip": "HueControllerApp\\AppShell.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:40:46.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T08:40:46.34Z"
             },
             {
               "$type": "Document",
@@ -445,8 +427,7 @@
               "RelativeToolTip": "HueControllerApp\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAADgvxwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-05T08:41:07.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T08:41:07.665Z"
             },
             {
               "$type": "Document",
@@ -458,8 +439,7 @@
               "RelativeToolTip": "HueControllerApp\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-04T22:12:50.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T22:12:50.539Z"
             }
           ]
         }

@@ -20,18 +20,21 @@
             <Label Text="Enter the IP Address of the HUE Bridge:"
                    FontSize="16"
                    TextColor="Black" />
-            <Entry Placeholder="e.g., 192.168.1.179"
+            <Entry x:Name="EntryBridgeIp" AutomationId="EntryBridgeIp"
+                   Placeholder="e.g., 192.168.1.179"
                    Text="{Binding BridgeIp}"
                    BackgroundColor="White"
                    TextColor="Black"
                    Margin="0,5,0,10" />
-            <Button Text="Connect"
+            <Button x:Name="ButtonConnect" AutomationId="ButtonConnect"
+                    Text="Connect"
                     Command="{Binding ConnectCommand}"
                     BackgroundColor="#4CAF50"
                     TextColor="White"
                     FontAttributes="Bold"
                     CornerRadius="10" />
-            <Label Text="{Binding ConnectionStatus}"
+            <Label x:Name="LabelConnectionStatus" AutomationId="LabelConnectionStatus"
+                   Text="{Binding ConnectionStatus}"
                    FontSize="14"
                    TextColor="Red"
                    Margin="0,5,0,0" />
@@ -44,7 +47,8 @@
                    FontAttributes="Bold"
                    TextColor="Black"
                    Margin="0,15,0,5" />
-            <CollectionView ItemsSource="{Binding ConnectedBridges}" Margin="0,10,0,0">
+            <CollectionView x:Name="BridgeList" AutomationId="BridgeList"
+                            ItemsSource="{Binding ConnectedBridges}" Margin="0,10,0,0">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Frame BackgroundColor="White" HasShadow="True" CornerRadius="10" Padding="10" Margin="5">
