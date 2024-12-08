@@ -8,6 +8,8 @@ namespace HueControllerApp
         {
             InitializeComponent();
 
+            LocalizationHelper.SetCulture("en-US");
+
             MainPage = new AppShell();
         }
     }
