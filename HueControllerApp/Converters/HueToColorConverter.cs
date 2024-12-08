@@ -3,7 +3,7 @@ using System.Globalization;
 using Microsoft.Maui.Graphics;
 using Microsoft.Maui.Controls;
 
-namespace HueController.Converters
+namespace HueControllerApp.Converters
 {
     public class HueToColorConverter : IValueConverter
     {

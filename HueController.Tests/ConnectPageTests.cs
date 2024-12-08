@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using Xamarin.UITest;
 
-namespace HueController.Tests.UI
+namespace HueController.Tests
 {
     [TestFixture]
     public class ConnectPageTests

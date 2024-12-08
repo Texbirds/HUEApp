@@ -1,7 +1,7 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:HueController.Views"
-             xmlns:converters="clr-namespace:HueController.Converters"
+             xmlns:converters="clr-namespace:HueControllerApp.Converters"
              x:Class="HueController.Views.MainPage"
              Title="Hue Lights"
              BackgroundColor="#F9F9F9">
