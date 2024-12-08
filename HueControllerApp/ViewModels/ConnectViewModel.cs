@@ -33,6 +33,13 @@ namespace HueControllerApp.ViewModels
                 ConnectionStatus = "Connecting...";
                 OnPropertyChanged(nameof(ConnectionStatus));
 
+                if (ConnectedBridges.Any(b => b.IpAddress == BridgeIp))
+                {
+                    ConnectionStatus = "Error: Bridge already connected";
+                    OnPropertyChanged(nameof(ConnectionStatus));
+                    return;
+                }
+
                 var apiKey = await _apiClient.RegisterAppAsync(BridgeIp, "my_hue_app");
                 ConnectionStatus = "Connected! API Key: " + apiKey;
 
@@ -49,6 +56,7 @@ namespace HueControllerApp.ViewModels
 
             OnPropertyChanged(nameof(ConnectionStatus));
         }
+
 
         private async Task OpenBridgeScreen(Bridge bridge)
         {
