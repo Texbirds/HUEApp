@@ -19,6 +19,8 @@ namespace HueControllerApp
     		builder.Logging.AddDebug();
 #endif
 
+            builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
+
             return builder.Build();
         }
     }

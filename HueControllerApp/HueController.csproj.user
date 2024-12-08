@@ -15,6 +15,11 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
+    <EmbeddedResource Update="Resources\localization\Resources.nl.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
     <MauiXaml Update="Views\ConnectPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

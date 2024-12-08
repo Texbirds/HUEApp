@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HueController.Domain", "Hue
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HueController.Infrastructure", "HueController.Infrastructure\HueController.Infrastructure.csproj", "{7264CCD6-CFBC-4DB6-801F-4F3D963C703E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HueController.Tests", "HueController.Tests\HueController.Tests.csproj", "{D03628F6-6A80-43FB-AAAF-B1198BC73CCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HueController.Tests", "HueController.Tests\HueController.Tests.csproj", "{D03628F6-6A80-43FB-AAAF-B1198BC73CCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,14 +1,15 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:HueControllerApp.ViewModels"
+             xmlns:localization="clr-namespace:HueControllerApp.Resources.localization"
              x:Class="HueController.Views.ConnectPage"
-             Title="Connect to Bridges"
              BackgroundColor="#F9F9F9">
+
 
     <StackLayout Padding="20" Spacing="15">
         <!-- Header Section -->
         <StackLayout BackgroundColor="#4CAF50" Padding="20,10">
-            <Label Text="Connect to Bridges"
+            <Label Text="{x:Static localization:Resources.ConnectPageTitle}"
                    FontSize="24"
                    FontAttributes="Bold"
                    TextColor="White"
@@ -17,17 +18,17 @@
 
         <!-- Connect Input Section -->
         <StackLayout>
-            <Label Text="Enter the IP Address of the HUE Bridge:"
+            <Label Text="{x:Static localization:Resources.EnterBridgeIp}"
                    FontSize="16"
                    TextColor="Black" />
             <Entry x:Name="EntryBridgeIp" AutomationId="EntryBridgeIp"
-                   Placeholder="e.g., 192.168.1.179"
+                   Placeholder="{x:Static localization:Resources.IpPlaceholder}"
                    Text="{Binding BridgeIp}"
                    BackgroundColor="White"
                    TextColor="Black"
                    Margin="0,5,0,10" />
             <Button x:Name="ButtonConnect" AutomationId="ButtonConnect"
-                    Text="Connect"
+                    Text="{x:Static localization:Resources.ConnectButtonText}"
                     Command="{Binding ConnectCommand}"
                     BackgroundColor="#4CAF50"
                     TextColor="White"
@@ -42,7 +43,7 @@
 
         <!-- Connected Bridges Section -->
         <StackLayout>
-            <Label Text="Connected Bridges:"
+            <Label Text="{x:Static localization:Resources.ConnectedBridgesLabel}"
                    FontSize="18"
                    FontAttributes="Bold"
                    TextColor="Black"
@@ -54,7 +55,7 @@
                         <Frame BackgroundColor="White" HasShadow="True" CornerRadius="10" Padding="10" Margin="5">
                             <StackLayout Orientation="Horizontal" Spacing="10">
                                 <Label Text="{Binding IpAddress}" FontSize="16" TextColor="Black" VerticalOptions="Center" />
-                                <Button Text="Open"
+                                <Button Text="{x:Static localization:Resources.OpenBridgeButtonText}"
                                         Command="{Binding Source={RelativeSource AncestorType={x:Type local:ConnectViewModel}}, Path=OpenBridgeCommand}"
                                         CommandParameter="{Binding}"
                                         BackgroundColor="#FF5722"

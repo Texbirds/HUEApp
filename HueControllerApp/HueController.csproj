@@ -57,6 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Localization" Version="9.0.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
@@ -68,15 +69,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Resources\Localization\AppResources.Designer.cs">
+	  <Compile Update="Resources\localization\Resources.nl.Designer.cs">
 	    <DesignTime>True</DesignTime>
 	    <AutoGen>True</AutoGen>
-	    <DependentUpon>AppResources.resx</DependentUpon>
+	    <DependentUpon>Resources.nl.resx</DependentUpon>
 	  </Compile>
-	  <Compile Update="Resources\Localization\AppResources.nl.Designer.cs">
+	  <Compile Update="Resources\localization\Resources.Designer.cs">
 	    <DesignTime>True</DesignTime>
 	    <AutoGen>True</AutoGen>
-	    <DependentUpon>AppResources.nl.resx</DependentUpon>
+	    <DependentUpon>Resources.resx</DependentUpon>
 	  </Compile>
 	  <Compile Update="Views\ConnectPage.xaml.cs">
 	    <DependentUpon>ConnectPage.xaml</DependentUpon>
@@ -84,13 +85,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <EmbeddedResource Update="Resources\Localization\AppResources.resx">
+	  <EmbeddedResource Update="Resources\localization\Resources.nl.resx">
 	    <Generator>ResXFileCodeGenerator</Generator>
-	    <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+	    <LastGenOutput>Resources.nl.Designer.cs</LastGenOutput>
 	  </EmbeddedResource>
-	  <EmbeddedResource Update="Resources\Localization\AppResources.nl.resx">
+	  <EmbeddedResource Update="Resources\localization\Resources.resx">
 	    <Generator>ResXFileCodeGenerator</Generator>
-	    <LastGenOutput>AppResources.nl.Designer.cs</LastGenOutput>
+	    <LastGenOutput>Resources.Designer.cs</LastGenOutput>
 	  </EmbeddedResource>
 	</ItemGroup>
 
